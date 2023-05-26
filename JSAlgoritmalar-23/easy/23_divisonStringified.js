@@ -15,7 +15,7 @@ export const divisonStringfied = (n1, n2) => {
     let arr = []
     let j = 0
 
-    for (let i = 0; i < backwordsArr.length; i++){c 
+    for (let i = 0; i < backwordsArr.length; i++){
 
         if(j != 0 && j % 3 === 0){
             arr.push(backwordsArr[i]+",")
