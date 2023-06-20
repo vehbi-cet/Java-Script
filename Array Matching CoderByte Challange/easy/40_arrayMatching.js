@@ -21,11 +21,6 @@ export const arrayMatching = (arr) => {
 
 
 
-
-  
-
-
-
 /*
 read the array of strings stored in strArr which will contain only two elements,
 both of which will represent an array of positive integers.
