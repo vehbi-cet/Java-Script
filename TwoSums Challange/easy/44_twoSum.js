@@ -5,7 +5,7 @@ export const twoSum = (nums, target) => {
     if(nums.length === 2 && nums[0] + nums[1] ===target) returnValue = [0,1]
 
     for(let i = 0; i < nums.length; i++){
-        let temp1 = nums[1]
+        let temp1 = nums[i]
 
         const nums_ = nums.filter(item => item != temp1)
 
