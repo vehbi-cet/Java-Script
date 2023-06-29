@@ -38,7 +38,7 @@ export const decimalToRoman = (num) => {
 
         while(num >= romanSymbols[key]){
             inRoman += key
-            num += romanSymbols[key]
+            num -= romanSymbols[key]
         }
     }
 
